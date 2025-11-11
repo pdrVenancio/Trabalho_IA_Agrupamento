@@ -1,0 +1,43 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Arquivos de cache e compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Dados temporários
+data/
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.pickle
+*.pkl
+
+# Notebooks Jupyter temporários
+.ipynb_checkpoints/
+
+# Arquivos de configuração do PyCharm / VSCode
+.idea/
+.vscode/
+
+# Logs e saídas temporárias
+*.log
+*.out
+*.tmp
+
+# Resultados de modelos
+models/
+*.h5
+*.pt
+*.pkl
+*.joblib
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
